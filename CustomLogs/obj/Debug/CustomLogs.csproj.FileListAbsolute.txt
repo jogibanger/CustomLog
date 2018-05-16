@@ -1,0 +1,5 @@
+D:\Herminder\CustomLogs\CustomLogs\bin\Debug\CustomLogs.dll
+D:\Herminder\CustomLogs\CustomLogs\bin\Debug\CustomLogs.pdb
+D:\Herminder\CustomLogs\CustomLogs\obj\Debug\CustomLogs.dll
+D:\Herminder\CustomLogs\CustomLogs\obj\Debug\CustomLogs.pdb
+D:\Herminder\CustomLogs\CustomLogs\obj\Debug\CustomLogs.csprojResolveAssemblyReference.cache

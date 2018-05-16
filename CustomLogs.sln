@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLogs", "CustomLogs\CustomLogs.csproj", "{C06C186B-1C53-4A28-80D2-7ED13DD35C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCustomLogs", "TestCustomLogs\TestCustomLogs.csproj", "{81D31AC6-9C95-4CC2-8552-B961B01045A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C06C186B-1C53-4A28-80D2-7ED13DD35C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06C186B-1C53-4A28-80D2-7ED13DD35C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06C186B-1C53-4A28-80D2-7ED13DD35C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06C186B-1C53-4A28-80D2-7ED13DD35C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D31AC6-9C95-4CC2-8552-B961B01045A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D31AC6-9C95-4CC2-8552-B961B01045A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D31AC6-9C95-4CC2-8552-B961B01045A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D31AC6-9C95-4CC2-8552-B961B01045A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
