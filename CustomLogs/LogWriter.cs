@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace CustomLogs
 {
-    public class LogWriter
+    public class LogWriter : SendMails
     {
         private string m_exePath = string.Empty;
         private string FolderName = string.Empty;
@@ -12,6 +12,15 @@ namespace CustomLogs
         public LogWriter(string logMessage)
         {
             LogWrite(logMessage);
+        }
+        public LogWriter(string logMessage, string userName, string passowrd, string fromEmailId, string toEmailAddress)
+        {
+            this.UserName = userName;
+            this.Password = passowrd;
+            this.FromEmailID = FromEmailID;
+            this.ToEmailId = toEmailAddress;
+            LogWrite(logMessage);
+            SendMail(logMessage);
         }
         /// <summary>
         /// Log message and Folder Name
@@ -24,13 +33,35 @@ namespace CustomLogs
             this.FolderName = folderName;          
             LogWrite(logMessage);
         }
-
-        public LogWriter(string logMessage,string folderName,string fileName )
+        public LogWriter(string logMessage, string folderName, string userName, string passowrd, string fromEmailId, string toEmailAddress)
         {
+            this.UserName = userName;
+            this.Password = passowrd;
+            this.FromEmailID = FromEmailID;
+            this.ToEmailId = toEmailAddress;
+            this.FolderName = folderName;
+            LogWrite(logMessage);
+            SendMail(logMessage);
+        }
+        public LogWriter(string logMessage, string folderName, string fileName)
+        {
+           
             this.FolderName = folderName;
             this.FileName = fileName;
             LogWrite(logMessage);
+            SendMail(logMessage);
         }
+        public LogWriter(string logMessage, string folderName, string fileName, string userName, string passowrd, string fromEmailId, string toEmailAddress)
+        {
+            this.UserName = userName;
+            this.Password = passowrd;
+            this.FromEmailID = fromEmailId;
+            this.ToEmailId = toEmailAddress;
+            this.FolderName = folderName;
+            this.FileName = fileName;
+            LogWrite(logMessage);
+            SendMail(logMessage);
+        }       
         /// <summary>
         /// You can write here..... Custom Log
         /// </summary>
@@ -68,7 +99,6 @@ namespace CustomLogs
             {
             }
         }
-
         public void Log(string logMessage, TextWriter txtWriter)
         {
             try

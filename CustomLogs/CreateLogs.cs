@@ -15,10 +15,7 @@ namespace CustomLogs
     {
         string TableName = string.Empty;
         string objConnection = string.Empty;
-        string fromEmailID = string.Empty;
-        string toEmailId = string.Empty;
-        string subject = string.Empty;
-        string body = string.Empty;
+        
         /// <summary>
         /// Please enter the Table Name.
         /// Please Enter the ConnectionString value.
@@ -31,29 +28,10 @@ namespace CustomLogs
             TableName = tableName;
             objConnection = ConnectionString;
         }
-        /// <summary>
-        /// Email Send Functionality
-        /// </summary>
-        /// <param name="FromEmailId">From Email ID</param>
-        /// <param name="ToEmailId"> To Email ID</param>
-        /// <param name="Subject"> Subject </param>
-        /// <param name="Body">Body...</param>
-        public CreateLogs(string FromEmailId,string ToEmailId,string Subject, string Body)
-        {
-            this.fromEmailID = FromEmailId;
-            this.toEmailId = ToEmailId;
-            this.subject = Subject;
-            this.body = Body;
-
-        }
-
-
         public CreateLogs()
         {
             throw new NotImplementedException("Table Name Must be Requireds");
         }
-
-
         public void CreateDatabaseLogs(object obj)
         {
             string IsTableCreated = string.Empty;
@@ -172,20 +150,6 @@ namespace CustomLogs
                 throw;
             }
         }
-
-
-
-        public void SendExceptionLog()
-        {
-            MailMessage mail = new MailMessage(this.fromEmailID,this.toEmailId);
-            SmtpClient client = new SmtpClient();
-            client.Port = 25;
-            client.DeliveryMethod = SmtpDeliveryMethod.Network;
-            client.UseDefaultCredentials = false;
-            client.Host = "smtp.gmail.com";
-            mail.Subject = this.subject;
-            mail.Body = this.body;
-            client.Send(mail);
-        }
+       
     }
 }

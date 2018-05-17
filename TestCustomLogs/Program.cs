@@ -21,7 +21,8 @@ namespace TestCustomLogs
             //obj.Name = "Have a nice day";
             //obj.Values = "1";
             //aa.CreateDatabaseLogs(obj);
-            CustomLogs.LogWriter log = new CustomLogs.LogWriter("Dummy Message Here...", "Custom folder");
+            CustomLogs.LogWriter log = new CustomLogs.LogWriter("asf");
+
             
 
         }
