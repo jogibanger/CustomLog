@@ -3,3 +3,7 @@ D:\Herminder\CustomLogs\CustomLogs\bin\Debug\CustomLogs.pdb
 D:\Herminder\CustomLogs\CustomLogs\obj\Debug\CustomLogs.dll
 D:\Herminder\CustomLogs\CustomLogs\obj\Debug\CustomLogs.pdb
 D:\Herminder\CustomLogs\CustomLogs\obj\Debug\CustomLogs.csprojResolveAssemblyReference.cache
+D:\Herminder\GitCustomLogs\CustomLog\CustomLogs\bin\Debug\CustomLogs.dll
+D:\Herminder\GitCustomLogs\CustomLog\CustomLogs\bin\Debug\CustomLogs.pdb
+D:\Herminder\GitCustomLogs\CustomLog\CustomLogs\obj\Debug\CustomLogs.dll
+D:\Herminder\GitCustomLogs\CustomLog\CustomLogs\obj\Debug\CustomLogs.pdb

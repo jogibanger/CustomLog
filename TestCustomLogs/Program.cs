@@ -15,12 +15,15 @@ namespace TestCustomLogs
     {
         static void Main(string[] args)
         {
-            string ConnectionString = "Data Source=SV01;User ID=sa;Password=mpx123;Database=dummy";
-            CustomLogs.CreateLogs aa = new CustomLogs.CreateLogs("CustomLogs",ConnectionString);
-            NameOfValue obj=new NameOfValue();
-            obj.Name = "Have a nice day";
-            obj.Values = "1";
-            aa.CreateDatabaseLogs(obj);
+            //string ConnectionString = "Data Source=SV01;User ID=sa;Password=mpx123;Database=dummy";
+            //CustomLogs.CreateLogs aa = new CustomLogs.CreateLogs("CustomLogs",ConnectionString);
+            //NameOfValue obj=new NameOfValue();
+            //obj.Name = "Have a nice day";
+            //obj.Values = "1";
+            //aa.CreateDatabaseLogs(obj);
+            CustomLogs.LogWriter log = new CustomLogs.LogWriter("Dummy Message Here...", "Custom folder");
+            
+
         }
     }
 }

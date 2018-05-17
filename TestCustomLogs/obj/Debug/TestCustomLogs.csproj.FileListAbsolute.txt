@@ -6,3 +6,11 @@ D:\Herminder\CustomLogs\TestCustomLogs\bin\Debug\CustomLogs.pdb
 D:\Herminder\CustomLogs\TestCustomLogs\obj\Debug\TestCustomLogs.csprojResolveAssemblyReference.cache
 D:\Herminder\CustomLogs\TestCustomLogs\obj\Debug\TestCustomLogs.exe
 D:\Herminder\CustomLogs\TestCustomLogs\obj\Debug\TestCustomLogs.pdb
+D:\Herminder\GitCustomLogs\CustomLog\TestCustomLogs\bin\Debug\TestCustomLogs.exe.config
+D:\Herminder\GitCustomLogs\CustomLog\TestCustomLogs\obj\Debug\TestCustomLogs.exe
+D:\Herminder\GitCustomLogs\CustomLog\TestCustomLogs\obj\Debug\TestCustomLogs.pdb
+D:\Herminder\GitCustomLogs\CustomLog\TestCustomLogs\bin\Debug\TestCustomLogs.exe
+D:\Herminder\GitCustomLogs\CustomLog\TestCustomLogs\bin\Debug\TestCustomLogs.pdb
+D:\Herminder\GitCustomLogs\CustomLog\TestCustomLogs\bin\Debug\CustomLogs.dll
+D:\Herminder\GitCustomLogs\CustomLog\TestCustomLogs\bin\Debug\CustomLogs.pdb
+D:\Herminder\GitCustomLogs\CustomLog\TestCustomLogs\obj\Debug\TestCustomLogs.csprojResolveAssemblyReference.cache
