@@ -46,19 +46,18 @@ namespace CustomLogs
        public void SendMail(string body)
        {
 
-           MailMessage mail = new MailMessage(this.FromEmailID, this.ToEmailId);
+            MailMessage mail = new MailMessage(this.FromEmailID, this.ToEmailId);
             SmtpClient client = new SmtpClient();
             client.Port = 25;
             client.DeliveryMethod = SmtpDeliveryMethod.Network;
+           
             client.UseDefaultCredentials = false;
             client.Credentials = new System.Net.NetworkCredential(this.UserName,this.Password);
             client.Host = "smtp.gmail.com";
             mail.Subject = this.Subject;
             mail.Body = body;
-            client.Send(mail);
-        
+            client.SendMailAsync(mail);
        }
-
 
     }
 }
