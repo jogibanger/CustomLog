@@ -13,3 +13,11 @@ D:\Herminder\GitCustomLogs\CustomLog\TestCustomLogs\bin\Debug\TestCustomLogs.exe
 D:\Herminder\GitCustomLogs\CustomLog\TestCustomLogs\bin\Debug\TestCustomLogs.pdb
 D:\Herminder\GitCustomLogs\CustomLog\TestCustomLogs\bin\Debug\CustomLogs.pdb
 D:\Herminder\GitCustomLogs\CustomLog\TestCustomLogs\obj\Debug\TestCustomLogs.csprojResolveAssemblyReference.cache
+F:\PhoneGap\CustomLog\CustomLog\TestCustomLogs\bin\Debug\TestCustomLogs.exe.config
+F:\PhoneGap\CustomLog\CustomLog\TestCustomLogs\obj\Debug\TestCustomLogs.exe
+F:\PhoneGap\CustomLog\CustomLog\TestCustomLogs\bin\Debug\TestCustomLogs.exe
+F:\PhoneGap\CustomLog\CustomLog\TestCustomLogs\bin\Debug\TestCustomLogs.pdb
+F:\PhoneGap\CustomLog\CustomLog\TestCustomLogs\obj\Debug\TestCustomLogs.pdb
+F:\PhoneGap\CustomLog\CustomLog\TestCustomLogs\bin\Debug\CustomLogs.dll
+F:\PhoneGap\CustomLog\CustomLog\TestCustomLogs\bin\Debug\CustomLogs.pdb
+F:\PhoneGap\CustomLog\CustomLog\TestCustomLogs\obj\Debug\TestCustomLogs.csprojResolveAssemblyReference.cache

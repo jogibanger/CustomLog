@@ -147,7 +147,7 @@ namespace CustomLogs
             catch (Exception Ex)
             {
 
-                throw;
+                throw Ex;
             }
         }
        

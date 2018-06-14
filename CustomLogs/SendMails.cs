@@ -17,7 +17,7 @@ namespace CustomLogs
       
        public SendMails()
        {
-           throw new NotImplementedException("Requried Email Address");
+           //throw new NotImplementedException("Requried Email Address");
        }
        public SendMails(string userName,string passowrd, string fromEmailId,string toEmailAddress)
        {
@@ -54,9 +54,10 @@ namespace CustomLogs
             client.UseDefaultCredentials = false;
             client.Credentials = new System.Net.NetworkCredential(this.UserName,this.Password);
             client.Host = "smtp.gmail.com";
+            client.EnableSsl = true;
             mail.Subject = this.Subject;
             mail.Body = body;
-            client.SendMailAsync(mail);
+            client.Send(mail);
        }
 
     }

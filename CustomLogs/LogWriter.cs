@@ -14,6 +14,7 @@ namespace CustomLogs
             LogWrite(logMessage);
         }
         public LogWriter(string logMessage, string userName, string passowrd, string fromEmailId, string toEmailAddress)
+            : base(userName, passowrd, fromEmailId, toEmailAddress)
         {
             this.UserName = userName;
             this.Password = passowrd;
@@ -34,6 +35,7 @@ namespace CustomLogs
             LogWrite(logMessage);
         }
         public LogWriter(string logMessage, string folderName, string userName, string passowrd, string fromEmailId, string toEmailAddress)
+            :base(userName,passowrd,fromEmailId,toEmailAddress)
         {
             this.UserName = userName;
             this.Password = passowrd;
@@ -52,6 +54,7 @@ namespace CustomLogs
             SendMail(logMessage);
         }
         public LogWriter(string logMessage, string folderName, string fileName, string userName, string passowrd, string fromEmailId, string toEmailAddress)
+         :base(userName,passowrd,fromEmailId,toEmailAddress)
         {
             this.UserName = userName;
             this.Password = passowrd;
@@ -83,6 +86,8 @@ namespace CustomLogs
             else
             {
                 m_exePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+               
+               
             }
             try
             {
@@ -97,6 +102,7 @@ namespace CustomLogs
             }
             catch (Exception ex)
             {
+                throw ex;
             }
         }
         public void Log(string logMessage, TextWriter txtWriter)
@@ -112,6 +118,7 @@ namespace CustomLogs
             }
             catch (Exception ex)
             {
+                throw ex;
             }
         }
     }

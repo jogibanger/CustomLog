@@ -7,3 +7,7 @@ D:\Herminder\GitCustomLogs\CustomLog\CustomLogs\bin\Debug\CustomLogs.dll
 D:\Herminder\GitCustomLogs\CustomLog\CustomLogs\bin\Debug\CustomLogs.pdb
 D:\Herminder\GitCustomLogs\CustomLog\CustomLogs\obj\Debug\CustomLogs.dll
 D:\Herminder\GitCustomLogs\CustomLog\CustomLogs\obj\Debug\CustomLogs.pdb
+F:\PhoneGap\CustomLog\CustomLog\CustomLogs\bin\Debug\CustomLogs.dll
+F:\PhoneGap\CustomLog\CustomLog\CustomLogs\bin\Debug\CustomLogs.pdb
+F:\PhoneGap\CustomLog\CustomLog\CustomLogs\obj\Debug\CustomLogs.dll
+F:\PhoneGap\CustomLog\CustomLog\CustomLogs\obj\Debug\CustomLogs.pdb
